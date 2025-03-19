@@ -1,0 +1,73 @@
+/* Third section carousel */
+
+/* Fifth section carousel */
+.fifth-section__carousel-list .slick-track {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.slick-initialized .fifth-section__list-item.slick-slide {
+  width: calc(25% - 32px) !important;
+  box-sizing: border-box;
+  border: 1px solid #3E3E3E;
+}
+
+.slick-slide p {
+  display: flex;
+  color: #CBCBCB;
+  font-size: 20.37px;
+  line-height: 28.37px;
+  font-weight: 400;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  height: 100px;
+}
+
+.slick-dots {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 13px;
+}
+
+.slick-list {
+  margin-bottom: 80px;
+}
+
+.slick-dots .slick-active button {
+  background-color: #00A8FF;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  padding: unset;
+  border-radius: unset;
+  border: unset;
+  background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px) {
+  .fifth-section__carousel-list .slick-track {
+    gap: unset;
+  }
+
+  .slick-list {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .slick-list {
+    margin-bottom: 48px;
+  }
+}

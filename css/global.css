@@ -1,0 +1,30 @@
+/* Shared class */
+.section {
+  width: 100%;
+}
+
+.parallax {
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-padding {
+  padding: 100px 48px;
+}
+
+/* Phone */
+@media screen and (max-width: 480px) {
+  .section-padding {
+    padding: 60px 16px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 489px) and (max-width: 1024px) {
+  .section-padding {
+    padding: 60px 32px;
+  }
+}
